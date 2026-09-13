@@ -1,0 +1,48 @@
+body{
+    margin: 0 0 0 0;
+   
+}
+
+.header{
+    background-color: #1F2937;
+    display: flex;
+    flex: 1 1 auto;
+    align-items: center;
+    justify-content: space-between;
+
+    
+}
+
+.hero{
+    background-color: #1F2937;
+}
+
+.information{
+
+}
+
+.quotebox{
+
+}
+
+.footer{
+    background-color: #1F2937;
+}
+
+.logo{
+    Color: #F9FAF8;
+    font-size: 24px;
+    margin-left: 20px;
+}
+
+a{
+    color:white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.links{
+    display: flex;
+    gap: 10px;
+    padding-right: 10px;
+}
