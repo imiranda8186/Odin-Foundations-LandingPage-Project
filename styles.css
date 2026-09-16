@@ -3,18 +3,30 @@ body{
    
 }
 
-.header{
+
+.header {
     background-color: #1F2937;
     display: flex;
     flex: 1 1 auto;
     align-items: center;
-    justify-content: space-between;
-
-    
+    justify-content: space-around;
 }
 
 .hero{
     background-color: #1F2937;
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: space-around;
+    padding: 0 0 0 0;
+}
+
+.heroimage{
+    display: flex;
+    border: 1px solid #eee;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
 }
 
 .information{
@@ -32,17 +44,16 @@ body{
 .logo{
     Color: #F9FAF8;
     font-size: 24px;
-    margin-left: 20px;
+    
 }
 
 a{
     color:white;
-    font-size: 20px;
+    font-size: 15px;
     text-decoration: none;
 }
 
 .links{
     display: flex;
     gap: 10px;
-    padding-right: 10px;
 }
