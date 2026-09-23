@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body{
     display: flex;
     flex-direction: column;
@@ -8,21 +12,47 @@ body{
 
 .header {
     background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
     
 }
 
 .content{
     display: flex;
     flex-direction: column;
-    flex: 1 1 auto;
+    flex: 1;
     
 }
 
 .hero{
     background-color: #1F2937;
     display: flex;
-    flex: 1 0 auto;
-    
+    flex: 1;
+    justify-content: space-evenly;
+
+}
+
+.herotext{
+    display: flex;
+    flex-direction: column;
+}
+
+.heroimage{
+    display: flex;
+}
+.herotext .heroheader{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.herotext .herosubtext{
+    color: #E5E7EB;
+    font-size: 18px;
+
 }
 
 .heroimage{
@@ -35,7 +65,7 @@ body{
 
 .information{
     display: flex;
-    flex: 1 0 auto;
+    flex: 1;
     
     
 }
@@ -69,12 +99,12 @@ body{
 .quotebox{
     display: flex;
     background-color: #E5E7EB;
-    flex: 1 0 auto;
+    flex: 1;
 }
 
 .signup{
     display: flex;
-    flex: 1 0 auto;
+    flex: 1;
     
 }
 
@@ -109,4 +139,17 @@ a{
 .links{
     display: flex;
     gap: 10px;
+}
+
+button{
+    background-color: #3882F6;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px
+}
+
+.hero, .information, .quotebox, .signup{
+    min-height: 0;
+    flex: 1;
 }
