@@ -10,130 +10,18 @@ body{
 }
 
 
-.header {
+.header{
+    display: flex;
     background-color: #1F2937;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-left: 15px;
-    padding-right: 15px;
-    
-}
-
-.content{
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-    
-}
-
-.hero{
-    background-color: #1F2937;
-    display: flex;
-    flex: 1;
-    justify-content: space-evenly;
-
-}
-
-.herotext{
-    display: flex;
-    flex-direction: column;
-}
-
-.heroimage{
-    display: flex;
-}
-.herotext .heroheader{
-    font-size: 48px;
-    color: #F9FAF8;
-    font-weight: 900;
-}
-
-.herotext .herosubtext{
-    color: #E5E7EB;
-    font-size: 18px;
-
-}
-
-.heroimage{
-    display: flex;
-    border: 1px solid #eee;
-    box-shadow: 2px 4px 16px rgba(0,0,0,.06);
-    border-radius: 4px;
-    
-}
-
-.information{
-    display: flex;
-    flex: 1;
-    
-    
-}
-.container{
-    display: flex;
-}
-
-.information .container{
-    display: flex;
-}
-
-
-.container .info{
-    border: 2px solid blue;
-    border-radius: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-}
-
-.container .indivboxes{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: 2px solid green;
-    max-height: 100px;
-    max-width: 150px;
-}
-
-.quotebox{
-    display: flex;
-    background-color: #E5E7EB;
-    flex: 1;
-}
-
-.signup{
-    display: flex;
-    flex: 1;
-    
-}
-
-.signupcontainer{
-    display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #3882F6;
-    border-radius: 5px;
-    
+    flex: 1 0 auto;
 
-}
-.footer{
-    background-color: #1F2937;
-    Color: #F9FAF8;
-    display: flex;
-    justify-content: center;
 }
 
 .logo{
-    Color: #F9FAF8;
     font-size: 24px;
-    
-}
-
-a{
-    color:white;
-    font-size: 15px;
-    text-decoration: none;
+    color:  #F9FAF8;
 }
 
 .links{
@@ -141,10 +29,43 @@ a{
     gap: 10px;
 }
 
-button{
-    background-color: #3882F6;
-    color: white;
-    width: 100px;
-    height: 30px;
-    border-radius: 10px
+a{
+    color: #F9FAF8;
+    text-decoration: none;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.hero{
+    display: flex;
+    background-color: #1F2937;
+    flex: 1 0 auto;
+}
+
+.information{
+    display: flex;
+    flex: 1 0 auto;
+    background-color: green;
+}
+
+.quotebox{
+    display: flex;
+    flex: 1 0 auto;
+    background-color:red;
+}
+
+.signup{
+    display: flex;
+    flex: 1 0 auto;
+    background-color: pink;
+}
+
+.footer{
+    display: flex;
+    flex: 1 0 auto;
+    background-color: purple;
 }
