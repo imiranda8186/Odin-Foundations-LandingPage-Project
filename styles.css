@@ -148,8 +148,3 @@ button{
     height: 30px;
     border-radius: 10px
 }
-
-.hero, .information, .quotebox, .signup{
-    min-height: 0;
-    flex: 1;
-}
